@@ -1,0 +1,59 @@
+// Scanner 구조체를 쓰기위해 임포트한다
+import java.util.Scanner; 
+
+//mid1클래스
+public class mid1
+{
+public static void main(String args [])
+	{
+
+	//Scanner형 sc를 선언
+	Scanner sc =new Scanner(System.in); 
+	
+	//int형 배열을 선언
+	int a[] = new int[5]; 
+    
+	//변수 선언
+	int i,j,d ; 
+	System.out.print("값 입력 : ");
+		
+		//사용자의 입력을 4번 받음
+		for(i=0;i<4;i++)
+		{
+			a[i] =sc. nextInt(); 
+		}
+
+		//연속된 2개의 숫자의 차이값을 3번 구하기위해 3번 돌림
+		for(i=0;i<3;i++) 
+		{
+			//연속된 2개의 숫자의 차이값을 구한뒤 4를 곱하여 5번째배열에 넣어준다
+			for(j=i+1;j<4;j++)
+			{	
+				d=a[j]-a[i]; 
+				if(a[j]-a[i]==d)
+				{
+				a[4]=a[0]+4*d; 
+				}
+			}
+		}	
+
+		//사용자가 입력한 4개의 배열을 출력
+		for(i=0;i<4;i++)
+		{
+           System.out.print(a[i]+" "); 
+		}
+
+		//마지막 배열까지 출력한다.
+		System.out.print(a[4]); 
+		System.out.print("\n");
+		}
+}
+
+
+
+
+
+
+
+
+A character is virtually put bac  sd  k  1360987 -0 nnk.,.';i  nto an indge6r 6yy9ioi6578808567put stream, decreasing its internal 565464567,mn./;/.m,,.file position as if a previous getc operation was undone.This character may or may not be the one read from the stream in the preceding input operation. In any case, the next character retrieved from stream is the character passed to this function, independently of the original one.Notice though, that this only affects further input operations on that stream, and not the content of the physical file associated with it, which is not modified by any calls to this function.
