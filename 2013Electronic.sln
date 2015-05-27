@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4week", "4week\4week.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6weekTest", "6weekTest\6weekTest.vcxproj", "{DF5655A7-1CDF-4315-AF15-FDD37EB53351}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7week", "7week\7week.vcxproj", "{EADBB3D2-B194-4720-85BD-24354C63BBE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -33,6 +35,10 @@ Global
 		{DF5655A7-1CDF-4315-AF15-FDD37EB53351}.Debug|Win32.Build.0 = Debug|Win32
 		{DF5655A7-1CDF-4315-AF15-FDD37EB53351}.Release|Win32.ActiveCfg = Release|Win32
 		{DF5655A7-1CDF-4315-AF15-FDD37EB53351}.Release|Win32.Build.0 = Release|Win32
+		{EADBB3D2-B194-4720-85BD-24354C63BBE8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EADBB3D2-B194-4720-85BD-24354C63BBE8}.Debug|Win32.Build.0 = Debug|Win32
+		{EADBB3D2-B194-4720-85BD-24354C63BBE8}.Release|Win32.ActiveCfg = Release|Win32
+		{EADBB3D2-B194-4720-85BD-24354C63BBE8}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
